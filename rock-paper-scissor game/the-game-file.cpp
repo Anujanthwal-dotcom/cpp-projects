@@ -66,7 +66,7 @@ int main(){
                     exit(0);}
             }
 
-            if(score_player==((matches/2)+1)){
+            if(score_player>=((matches/2)+1)){
                 cout<<"you won the match"<<endl;
             }
             else{
